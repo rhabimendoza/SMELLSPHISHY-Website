@@ -1,0 +1,226 @@
+/*******************ALL******************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*******************ALL******************/
+
+
+
+/*******************NAVBAR******************/
+.navbar{
+    background-color: #c40837;
+}
+
+.navbar .nav-link, .navbar .navbar-brand{
+    color: white;
+}
+
+.navbar .nav-link:hover, .navbar .navbar-brand:hover{
+    opacity: 0.7;
+}
+/*******************NAVBAR******************/
+
+
+
+/*******************LANDING******************/
+.landing-div{
+    background-image: linear-gradient(#DA0037, #DA0037, #E3708D, #EDEDED);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.landing-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.landing-text h1, .landing-text p{
+    margin: 0.5rem 0;
+    word-wrap: break-word; 
+}
+
+.btn{
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+/*******************LANDING******************/
+
+
+
+/*******************ABOUT******************/
+.about-div{
+    background-color: #EDEDED;
+    min-height: 100vh;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.about-div h2{
+    font-size: 2rem;
+    color: #222f3e;
+}
+
+.desc-content{
+    color: #1A1A1A;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.chip-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chip-content p{
+    font-size: 20px;
+    background-color: #DA0037;
+    color: #EDEDED;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+/*******************ABOUT******************/
+
+
+
+/*******************HOW******************/
+.how-div{
+    background-color: #EDEDED;
+    min-height: 100vh;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.how-div h2{
+    font-size: 2rem;
+    color: #222f3e;
+}
+
+.how-div .card{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.how-div .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.how-div .card-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #fbe4df;
+    margin: 0 auto; 
+}
+
+.how-div .card-icon-img{
+    width: 80px; 
+    height: 80px; 
+    object-fit: contain;
+}
+
+.how-div .card-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #222f3e;
+}
+
+.how-div .card-text{
+    font-size: 18px;
+    color: #576574;
+}
+
+.how-div .card .card-title,
+.how-div .card .card-text{
+    width: 100%;
+}
+/*******************HOW******************/
+
+
+
+/*******************FEATURES******************/
+.features-div{
+    background-color: #EDEDED;
+    min-height: 100vh;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.features-div h2{
+    font-size: 2rem;
+    color: #222f3e;
+}
+
+.features-container{
+    color: white;
+    background-color: #DA0037;
+}
+/*******************FEATURES******************/
+
+
+
+/*******************CONTACT******************/
+.contact-div{
+    background-color: #444444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-logo-img{
+    height: fit-content;
+    width: fit-content;
+    padding: 0 55px 5px 55px;
+    background-color: #EDEDED;
+    border-radius: 8px;
+    margin-bottom:40px;
+    margin-top: 40px;
+}
+
+.contact-logo-img img{
+     width: 200px;
+}
+
+.back-top{
+    margin-bottom:40px;
+}
+
+.back-top a{
+    color: #EDEDED;
+}
+
+.copyrights{
+    color: rgb(237, 237, 237, .7);
+}
+/*******************CONTACT******************/
