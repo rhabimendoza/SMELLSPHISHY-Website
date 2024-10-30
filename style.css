@@ -198,20 +198,6 @@ h1{
     justify-content: center;
 }
 
-.contact-logo-img{
-    height: fit-content;
-    width: fit-content;
-    padding: 0 55px 5px 55px;
-    background-color: #EDEDED;
-    border-radius: 8px;
-    margin-bottom:40px;
-    margin-top: 40px;
-}
-
-.contact-logo-img img{
-     width: 200px;
-}
-
 .back-top{
     margin-bottom:40px;
 }
